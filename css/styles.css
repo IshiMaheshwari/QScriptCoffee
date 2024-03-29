@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    }
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0; 
+}
+
+nav ul li {
+    display: inline;
+    margin:0 10 px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 70px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white; 
+    height: 200%;
+
+}
+
+.hero-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 160%;
+    object-fit: cover;
+    z-index: -1; }
+
+.calligraphy-heading {
+    font-family: 'Edwardian Script ITC',cursive;
+    color: brown;
+    font-size: 5rem;
+    margin-bottom: 50px;
+}
+
+.hero p {
+    font-size: 3rem; }
+
+.cta-btn {
+    display: inline-block;
+    background: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about {
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.menu {
+    padding: 50px 0;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.contact {
+    padding: 50px 0;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background: #ff5733;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px
+}
+footer {
+    background-color: #000; 
+    color: #fff; 
+    text-align: center; 
+    padding: 10px 0;
+}
